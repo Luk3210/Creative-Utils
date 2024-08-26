@@ -1,4 +1,4 @@
-A fabric mod that adds some QOL features for creative mode. Also my first mod plz mercy. All of its features are only enabled in creative mode.
+A fabric Minecraft mod that adds some QOL features for creative mode. Also my first mod plz mercy. All of its features are only enabled in creative mode.
 
 List of capabilities:
 
