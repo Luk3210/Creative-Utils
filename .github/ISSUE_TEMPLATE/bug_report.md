@@ -1,23 +1,60 @@
----
-name: Bug report
-about: Create a report to help us improve
-title: "[BUG]"
-labels: bug
-assignees: Luk3210
+name: Report A Bug
+description: >-
+  Use this template for reporting a bug. Please note that only Minecraft versions listed on the 'main' branch are supported. Support may additionally vary based on the severity of an issue.
+title: '[Bug]: '
+labels: ["bug"]
+assignees:
+  - Fuzss
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to fill out this template!
+  - type: dropdown
+    id: loader
+    attributes:
+      label: Mod Loader (Required)
+      description: What mod loader are you using to play the mod?
+      multiple: false
+      options:
+        - Fabric
+        - NeoForge
+        - Forge
+        - Quilt
+    validations:
+      required: true
+  - type: input
+    id: minecraft
+    attributes:
+      label: Minecraft Version(s) (Required)
+      description: What Minecraft version(s) are you using the play the mod?
+      placeholder: ex. 1.20.1
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: Mod Version(s) (Required)
+      description: What mod version(s) are you using to play?
+      placeholder: ex. v8.0.0
+    validations:
+      required: true
+  - type: textarea
+    id: notes
+    attributes:
+      label: Notes (Required)
+      description: Please explain what happens because of the bug (including all the steps required to cause the bug), and what behavior you would expect if the bug were fixed.
+      placeholder: >-
+        ex.  
+        
+        Current behavior: Shift-clicking a fuel item in the furnace fuel slots does not work.
 
----
+        Steps to reproduce: 
+        
+        1. Open the furnace screen.
 
-**Describe the bug**
-A clear and concise description of what the bug is.
-
-**To Reproduce**
-Steps to reproduce the behavior.
-
-**Expected behavior**
-A clear and concise description of what you expected to happen.
-
-**Screenshots**
-If applicable, add screenshots to help explain your problem.
-
-**Additional context**
-Add any other context about the problem here.
+        2. Attempt to shift-click a fuel item into the fuel slot.
+        
+        Expected: Following the steps to reproduce the bug, the fuel item should be moved into the furnace fuel slot.
+    validations:
+      required: true
