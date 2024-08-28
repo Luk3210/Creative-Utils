@@ -13,7 +13,7 @@ A clear and concise description of what the bug is.
 **To Reproduce**
 Steps to reproduce the behavior:
 
-**Paste a copy of latest.log**
+**Attach a copy of latest.log**
 
 **Screenshots**
 If applicable, add screenshots to help explain your problem.
