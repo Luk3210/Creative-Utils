@@ -1,0 +1,32 @@
+{
+	"schemaVersion": 1,
+	"id": "creativeutils-by-turbotech",
+	"version": "${version}",
+	"name": "CreativeUtils",
+	"description": "My first mod. Plz mercy.",
+	"authors": [
+		"TurboTech"
+	],
+	"contact": {
+		"homepage": "https://modrinth.com/user/TurboTech",
+		"sources": "https://github.com/Luk3210/CreativeUtils",
+		"issues": "https://github.com/Luk3210/CreativeUtils/issues"
+	},
+	"license": "LGPL-3.0-only",
+	"icon": "assets/creativeutils/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.turbotechmods.CreativeUtils"
+		]
+	},
+	"depends": {
+		"fabricloader": ">=0.15.11",
+		"minecraft": "1.21.x",
+		"java": ">=21",
+		"fabric-api": "*",
+		"worldedit":"*"
+	},
+	"suggests": {
+	}
+}
