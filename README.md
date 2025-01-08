@@ -1,3 +1,5 @@
+[![Modrinth](https://img.shields.io/modrinth/dt/nvidium?logo=modrinth)]([https://modrinth.com/mod/nvidium](https://modrinth.com/mod/creative-utils))
+
 A fabric Minecraft mod that adds some QOL features for creative mode. Also my first mod plz mercy. All of its features are only enabled in creative mode.
 
 List of capabilities:
