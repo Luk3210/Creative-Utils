@@ -1,0 +1,30 @@
+{
+	"schemaVersion": 1,
+	"id": "creative-utils",
+	"version": "${version}",
+	"name": "Creative Utils",
+	"description": "Mod with useful creative mode QOL features.",
+	"authors": [
+		"TurboTech"
+	],
+	"contact": {
+		"homepage": "https://modrinth.com/user/TurboTech",
+		"sources": "https://github.com/Luk3210/CreativeUtils",
+		"issues": "https://github.com/Luk3210/CreativeUtils/issues"
+	},
+	"license": "LGPL-3.0-only",
+	"icon": "assets/creative-utils/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"turbotechmods.creativeutils.CreativeUtils"
+		]
+	},
+	"depends": {
+		"fabricloader": ">=0.16.9",
+		"minecraft": "~1.21.4",
+		"java": ">=21",
+		"fabric-api": "*",
+		"worldedit":"*"
+	}
+}
