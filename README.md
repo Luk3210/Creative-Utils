@@ -3,8 +3,6 @@
     <img alt="modrinth" height="56" src="https://cdn.jsdelivr.net/npm/@intergrav/devins-badges@3/assets/cozy/available/modrinth_vector.svg" />
   </a>
 
-[![Modrinth Downloads](https://img.shields.io/modrinth/dt/creative-utils?style=for-the-badge&logo=modrinth&size=auto)](https://modrinth.com/mod/creative-utils)
-
 **The 1.21.2 will not work until WorldEdit for fabric 1.21.2 is released**
 
 A fabric Minecraft mod that adds some QOL features for creative mode. Also my first mod plz mercy. All of its features are only enabled in creative mode.
