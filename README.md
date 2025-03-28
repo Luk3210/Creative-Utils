@@ -6,9 +6,9 @@
 </a>
   
 
-**The 1.21.2 will not work until WorldEdit for fabric 1.21.2 is released**
+This is a fabric Minecraft mod that adds some QOL features for creative mode. Also, this is my first mod, so please have mercy. All of its features are only enabled in creative mode.
 
-A fabric Minecraft mod that adds some QOL features for creative mode. Also my first mod plz mercy. All of its features are only enabled in creative mode.
+Note: I'm sorry, but I cannot update until WorldEdit is updated.
 
 List of capabilities:
 
@@ -18,4 +18,4 @@ List of capabilities:
 4. '/CreativeUtils Onepunch Off' - Makes you normal stronk.
 5. '/CreativeUtils SetupNewWorld' - Disables the daylight and weather cycle, turns off firetick, sets the time to 1000(day), turns off natural mob spawns, and sets the difficulty to peaceful.
 6. '/CreativeUtils SetAir' or '/air' - Make a selection with the WorldEdit selection tool and then run one of these commands to turn it to air.
-7. Limits stack sizes to 1 to get rid of the uneven stack sizes (Can be bypassed by double clicking a hotbar hotkey while hovering over your desired item and does not apply to containers.)
+7. Limit stack sizes to one to eliminate uneven stack sizes (This can be bypassed by double-clicking a hotbar hotkey while hovering over your desired item; This does not apply to containers.)
